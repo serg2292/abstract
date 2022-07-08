@@ -1,0 +1,26 @@
+@use '../util' as *;
+
+h1 {
+    color: var(--black);
+    font-size: rem(80);
+}
+
+h2 {
+    color: var(--black);
+    font-size: rem(24);
+}
+
+h3 {
+    color: var(--white);
+    font-size: rem(24);
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+p {
+    color: var(--black);
+    font-size: rem(24);
+}

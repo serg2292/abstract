@@ -1,0 +1,18 @@
+@font-face {
+	font-family: GTAmerica;
+	font-display: swap;
+	src: url("../fonts/GTAmerica-Bold.woff2") format("woff2"), url("../fonts/GTAmerica-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: GTAmerica;
+	font-display: swap;
+	src: url("../fonts/GTAmerica.woff2") format("woff2"), url("../fonts/GTAmerica.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+	--gt: 'GTAmerica', 'Arial', 'sans-serif';
+}

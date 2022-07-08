@@ -1,0 +1,14 @@
+@use '../util' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: var(--gt);
+}
+
