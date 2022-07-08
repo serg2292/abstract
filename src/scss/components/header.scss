@@ -1,2 +1,70 @@
-@use '../util' as *;
+@use '../util'as *;
 
+#abstract-logo {
+    fill: var(--white);
+    width: 500px;
+}
+
+#search-svg {
+    fill: var(--white);
+}
+
+#burger-svg {
+    fill: var(--white);
+}
+
+.header-container {
+    padding: rem(0) rem(15);
+
+    @include breakpoint-up(medium) {
+        padding: rem(0) rem(86);
+    }
+
+}
+
+.header {
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: rem(19) auto;
+        max-width: rem(1900);
+    }
+
+    &__logo {
+        display: block;
+        width: rem(126);
+        height: 2rem;
+
+        &-wrapper {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__helpcenter {
+        font-size: rem(24);
+        border-left: rem(2) solid #fff;
+        line-height: rem(23);
+        margin: rem(4) 0 0 0.8rem;
+        padding: rem(2) 0 rem(4) 0.8rem;
+    }
+
+    &__buttons {
+        display: flex;
+        align-items: center;
+        padding: rem(10) 0;
+        @include breakpoint-up(large) {
+            display: none;
+        }
+    }
+
+    &__buttons--large {
+        display: flex;
+        align-items: center;
+        @include breakpoint-down(large) {
+            display: none;
+        }
+    }
+
+}

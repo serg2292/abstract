@@ -1,10 +1,14 @@
 $breakpoints-up: (
-	'medium': '600px',
+	'small': '600px',
+	'medium': '770px',
+	'large': '1200px'
 );
 
 
 $breakpoints-down: (
-	'medium': '599px',
+	'small': '599px',
+	'medium': '769px',
+	'large': '1199px'
 
 );
 

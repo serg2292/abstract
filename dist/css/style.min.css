@@ -92,6 +92,12 @@ a {
   color: var(--white);
   text-decoration: none;
 }
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
 
 p {
   color: var(--black);
@@ -109,4 +115,118 @@ body {
   line-height: 1.5;
   font-family: var(--gt);
   background-color: var(--black);
+}
+
+img {
+  display: block;
+}
+
+.button {
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.button--header {
+  background-color: inherit;
+  height: 3.125rem;
+}
+
+.button--search {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.button--burger {
+  width: 2rem;
+  height: 1.4375rem;
+  margin-left: 0.625rem;
+}
+
+.button--headerlarge {
+  font-size: 1.5rem;
+  color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.button--request {
+  background-color: inherit;
+  border: 1px solid var(--white);
+  padding: 0.625rem 1.375rem;
+}
+
+.button--sign {
+  background-color: var(--blue);
+  padding: 0.625rem 2.125rem;
+  margin-left: 1rem;
+  transition: 0.3s;
+}
+.button--sign:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+#abstract-logo {
+  fill: var(--white);
+  width: 500px;
+}
+
+#search-svg {
+  fill: var(--white);
+}
+
+#burger-svg {
+  fill: var(--white);
+}
+
+.header-container {
+  padding: 0rem 0.9375rem;
+}
+@media (min-width: 770px) {
+  .header-container {
+    padding: 0rem 5.375rem;
+  }
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.1875rem auto;
+  max-width: 118.75rem;
+}
+.header__logo {
+  display: block;
+  width: 7.875rem;
+  height: 2rem;
+}
+.header__logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__helpcenter {
+  font-size: 1.5rem;
+  border-left: 0.125rem solid #fff;
+  line-height: 1.4375rem;
+  margin: 0.25rem 0 0 0.8rem;
+  padding: 0.125rem 0 0.25rem 0.8rem;
+}
+.header__buttons {
+  display: flex;
+  align-items: center;
+  padding: 0.625rem 0;
+}
+@media (min-width: 1200px) {
+  .header__buttons {
+    display: none;
+  }
+}
+.header__buttons--large {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1199px) {
+  .header__buttons--large {
+    display: none;
+  }
 }
