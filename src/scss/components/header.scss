@@ -29,6 +29,16 @@
         justify-content: space-between;
         margin: rem(19) auto;
         max-width: rem(1900);
+
+        &--search {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: rem(19) auto;
+            max-width: rem(1900);
+            background-color: var(--white);
+            height: 300px;
+        }
     }
 
     &__logo {
@@ -39,6 +49,7 @@
         &-wrapper {
             display: flex;
             align-items: center;
+            min-height: rem(50);
         }
     }
 
@@ -62,6 +73,7 @@
     &__buttons--large {
         display: flex;
         align-items: center;
+        min-height: rem(50);
         @include breakpoint-down(large) {
             display: none;
         }

@@ -1,0 +1,53 @@
+@use '../util'as *;
+
+.main-container {
+    padding: rem(0) rem(15);
+
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: rem(100);
+    padding-bottom: rem(115);
+}
+
+.main {
+    background-color: var(--light-blue);
+
+    &__title {
+        margin-bottom: rem(56);
+        // margin: 0 auto;
+
+    }
+}
+
+.main-form {
+    width: 100%;
+
+    &__input {
+        width: 100%;
+        padding: 1rem 1rem;
+        font-size: rem(20);
+        line-height: rem(32);
+        border-radius: rem(4);
+        outline: none;
+        border: 1px solid var(--black);
+        transition: .3s;
+        box-shadow: 0 rem(9) rem(14) 0 rgba(0, 0, 0, 0.1);
+
+        &::placeholder {
+            color: var(--black);
+        }
+
+        &:hover {
+            border-color: var(--blue);
+        }
+
+    }
+    
+    &__btn {
+        display: none;
+    }
+}
