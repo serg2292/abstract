@@ -13,15 +13,6 @@
     fill: var(--white);
 }
 
-.header-container {
-    padding: rem(0) rem(15);
-
-    @include breakpoint-up(medium) {
-        padding: rem(0) rem(86);
-    }
-
-}
-
 .header {
     &__inner {
         display: flex;
