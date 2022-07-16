@@ -1,0 +1,72 @@
+@use '../util'as *;
+
+.hero {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: rem(65);
+        padding-bottom: rem(115);
+    }
+
+    &__title {
+        margin-bottom: rem(30);
+
+        @include breakpoint-down(extrasmall) {
+            font-size: rem(40);
+        }
+
+        @include breakpoint-up(medium) {
+            font-size: rem(80);
+        }
+
+
+    }
+}
+
+.hero-form {
+    width: 100%;
+    position: relative;
+    max-width: rem(720);
+
+    &:hover &__input {
+        border-color: var(--blue);
+    }
+
+    &:hover #arrow-svg {
+        fill: var(--blue);
+    }
+
+    &__input {
+        width: 100%;
+        padding: 1rem 1rem;
+        font-size: rem(20);
+        line-height: rem(32);
+        border-radius: rem(4);
+        outline: none;
+        border: 1px solid var(--black);
+        transition: .3s;
+        box-shadow: 0 rem(9) rem(14) 0 rgba(0, 0, 0, 0.1);
+        transition: .3s;
+
+        &::placeholder {
+            color: var(--black);
+            opacity: 1;
+            font-family: var(--gt);
+        }
+
+        &:focus {
+            border-color: var(--blue);
+        }
+    }
+
+}
+
+#arrow-svg {
+    width: rem(28);
+    height: rem(36);
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    transition: .3s;
+}
