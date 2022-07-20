@@ -1,18 +1,5 @@
 @use '../util'as *;
 
-#abstract-logo {
-    fill: var(--white);
-    width: 500px;
-}
-
-#search-svg {
-    fill: var(--white);
-}
-
-#burger-svg {
-    fill: var(--white);
-}
-
 .header {
     &__inner {
         display: flex;
