@@ -39,37 +39,6 @@
             text-align: start;
         }
 
-        // width: calc(50% - rem(83));
-        // margin-right: rem(80);
-        // margin-bottom: rem(60);
-
-
-        // @include breakpoint-up(midsmall) {
-        //     margin-right: rem(80);
-        // }
-
-        // &:nth-child(odd) {
-        //     @include breakpoint-up(midsmall) {
-        //         width: calc(12%);
-        //     }
-        // }
-
-        // &:nth-child(even) {
-        //     @include breakpoint-up(midsmall) {
-        //         width: calc(70%);
-        //         margin-right: 0;
-        //     }
-        // }
-
-        // @include breakpoint-up(medium) {
-        //     width: 100%;
-        //     flex: 30%;
-        //     margin-right: rem(80);
-        // }
-
-        // @include breakpoint-up(middle) {
-        //     width: 15%;
-        // }
     }
 
     &__item {

@@ -1,19 +1,22 @@
-#abstract-logo {
+.abstract-logo {
     fill: var(--white);
-    width: 500px;
+    width: 126px;
+    height: 32px;
 }
 
-#search-svg {
+.search-svg {
     fill: var(--white);
+    width: 22px;
+    height: 24px;
+
 }
 
-#burger-svg {
+.burger-svg {
     fill: var(--white);
+    width: 23px;
+    height: 30px;
 }
 
-#abstract-logo-footer {
-    width: 100%;
-    height: 100%;
-    line-height: rem(28);
-
+.abstract-logo-footer-svg {
+    fill: var(--white);
 }
