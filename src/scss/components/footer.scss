@@ -49,20 +49,17 @@
     &__copyright {
         display: flex;
         flex-direction: column;
-        text-align: center;
         margin: 0 auto;
 
         @include breakpoint-up(middle) {
             width: 20%;
             text-align: start;
+            margin-top: rem(168);
         }
     }
 
     &__logo {
-        margin: 0 auto;
-        width: rem(35);
-        height: rem(35);
-        margin-bottom: rem(27);
+        margin-bottom: 0.7rem;
 
         @include breakpoint-up(middle) {
             margin-left: 0px;
