@@ -1,31 +1,33 @@
+@use '../util'as *;
+
 .abstract-logo {
     fill: var(--white);
-    width: 126px;
-    height: 32px;
+    width: rem(126);
+    height: rem(32);
 }
 
 .search-svg {
     fill: var(--white);
-    width: 22px;
-    height: 24px;
+    width: rem(22);
+    height: rem(24);
 
 }
 
 .burger-svg {
     fill: var(--white);
-    width: 23px;
-    height: 30px;
+    width: rem(23);
+    height: rem(30);
 }
 
 .abstract-logo-footer-svg {
     fill: var(--white);
-    height: 36px;
-    width: 120px;
+    height: rem(36);
+    width: rem(120);
 
 }
 
 .help-svg {
     fill: var(--white);
-    width: 20px;
-    height: 20px;
+    width: rem(20);
+    height: rem(20);
 }
